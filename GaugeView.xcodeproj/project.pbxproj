@@ -17,6 +17,8 @@
 		5E9A835E289935B4002CC8E8 /* UsualViewModifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E9A835D289935B4002CC8E8 /* UsualViewModifiers.swift */; };
 		5E9A8360289936C1002CC8E8 /* GaugeStyles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E9A835F289936C1002CC8E8 /* GaugeStyles.swift */; };
 		5E9A83622899377B002CC8E8 /* GaugeStyleAccessoryLinearCapacity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E9A83612899377B002CC8E8 /* GaugeStyleAccessoryLinearCapacity.swift */; };
+		5E9A836428993D94002CC8E8 /* GauceStylesAccessoryCircular.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E9A836328993D94002CC8E8 /* GauceStylesAccessoryCircular.swift */; };
+		5E9A836628993E00002CC8E8 /* GauceStylesAccessoryCircularCapacity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E9A836528993E00002CC8E8 /* GauceStylesAccessoryCircularCapacity.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +33,8 @@
 		5E9A835D289935B4002CC8E8 /* UsualViewModifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsualViewModifiers.swift; sourceTree = "<group>"; };
 		5E9A835F289936C1002CC8E8 /* GaugeStyles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GaugeStyles.swift; sourceTree = "<group>"; };
 		5E9A83612899377B002CC8E8 /* GaugeStyleAccessoryLinearCapacity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GaugeStyleAccessoryLinearCapacity.swift; sourceTree = "<group>"; };
+		5E9A836328993D94002CC8E8 /* GauceStylesAccessoryCircular.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GauceStylesAccessoryCircular.swift; sourceTree = "<group>"; };
+		5E9A836528993E00002CC8E8 /* GauceStylesAccessoryCircularCapacity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GauceStylesAccessoryCircularCapacity.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +77,8 @@
 				5E9A835D289935B4002CC8E8 /* UsualViewModifiers.swift */,
 				5E9A835F289936C1002CC8E8 /* GaugeStyles.swift */,
 				5E9A83612899377B002CC8E8 /* GaugeStyleAccessoryLinearCapacity.swift */,
+				5E9A836328993D94002CC8E8 /* GauceStylesAccessoryCircular.swift */,
+				5E9A836528993E00002CC8E8 /* GauceStylesAccessoryCircularCapacity.swift */,
 			);
 			path = GaugeView;
 			sourceTree = "<group>";
@@ -159,8 +165,10 @@
 				5E9A83622899377B002CC8E8 /* GaugeStyleAccessoryLinearCapacity.swift in Sources */,
 				5E9A835A28993390002CC8E8 /* AddingCustomLabels.swift in Sources */,
 				5E9A835C2899351A002CC8E8 /* BoundsView.swift in Sources */,
+				5E9A836428993D94002CC8E8 /* GauceStylesAccessoryCircular.swift in Sources */,
 				5E9A8358289932EE002CC8E8 /* Speedometer.swift in Sources */,
 				5E9A834C28993240002CC8E8 /* ContentView.swift in Sources */,
+				5E9A836628993E00002CC8E8 /* GauceStylesAccessoryCircularCapacity.swift in Sources */,
 				5E9A835E289935B4002CC8E8 /* UsualViewModifiers.swift in Sources */,
 				5E9A834A28993240002CC8E8 /* GaugeViewApp.swift in Sources */,
 			);

@@ -33,6 +33,12 @@ struct ContentView: View {
             
             GaugeStyleAccessoryLinearCapacity()
                 .padding(.horizontal)
+            
+            GauceStylesAccessoryCircular()
+                .padding(.horizontal)
+            
+            GauceStylesAccessoryCircularCapacity()
+                .padding(.horizontal)
         }
     }
 }
