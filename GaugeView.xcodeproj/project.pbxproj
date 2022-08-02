@@ -13,6 +13,10 @@
 		5E9A835128993243002CC8E8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E9A835028993243002CC8E8 /* Preview Assets.xcassets */; };
 		5E9A8358289932EE002CC8E8 /* Speedometer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E9A8357289932EE002CC8E8 /* Speedometer.swift */; };
 		5E9A835A28993390002CC8E8 /* AddingCustomLabels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E9A835928993390002CC8E8 /* AddingCustomLabels.swift */; };
+		5E9A835C2899351A002CC8E8 /* BoundsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E9A835B2899351A002CC8E8 /* BoundsView.swift */; };
+		5E9A835E289935B4002CC8E8 /* UsualViewModifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E9A835D289935B4002CC8E8 /* UsualViewModifiers.swift */; };
+		5E9A8360289936C1002CC8E8 /* GaugeStyles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E9A835F289936C1002CC8E8 /* GaugeStyles.swift */; };
+		5E9A83622899377B002CC8E8 /* GaugeStyleAccessoryLinearCapacity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E9A83612899377B002CC8E8 /* GaugeStyleAccessoryLinearCapacity.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +27,10 @@
 		5E9A835028993243002CC8E8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		5E9A8357289932EE002CC8E8 /* Speedometer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Speedometer.swift; sourceTree = "<group>"; };
 		5E9A835928993390002CC8E8 /* AddingCustomLabels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddingCustomLabels.swift; sourceTree = "<group>"; };
+		5E9A835B2899351A002CC8E8 /* BoundsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoundsView.swift; sourceTree = "<group>"; };
+		5E9A835D289935B4002CC8E8 /* UsualViewModifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsualViewModifiers.swift; sourceTree = "<group>"; };
+		5E9A835F289936C1002CC8E8 /* GaugeStyles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GaugeStyles.swift; sourceTree = "<group>"; };
+		5E9A83612899377B002CC8E8 /* GaugeStyleAccessoryLinearCapacity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GaugeStyleAccessoryLinearCapacity.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +69,10 @@
 				5E9A834F28993243002CC8E8 /* Preview Content */,
 				5E9A8357289932EE002CC8E8 /* Speedometer.swift */,
 				5E9A835928993390002CC8E8 /* AddingCustomLabels.swift */,
+				5E9A835B2899351A002CC8E8 /* BoundsView.swift */,
+				5E9A835D289935B4002CC8E8 /* UsualViewModifiers.swift */,
+				5E9A835F289936C1002CC8E8 /* GaugeStyles.swift */,
+				5E9A83612899377B002CC8E8 /* GaugeStyleAccessoryLinearCapacity.swift */,
 			);
 			path = GaugeView;
 			sourceTree = "<group>";
@@ -143,9 +155,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5E9A8360289936C1002CC8E8 /* GaugeStyles.swift in Sources */,
+				5E9A83622899377B002CC8E8 /* GaugeStyleAccessoryLinearCapacity.swift in Sources */,
 				5E9A835A28993390002CC8E8 /* AddingCustomLabels.swift in Sources */,
+				5E9A835C2899351A002CC8E8 /* BoundsView.swift in Sources */,
 				5E9A8358289932EE002CC8E8 /* Speedometer.swift in Sources */,
 				5E9A834C28993240002CC8E8 /* ContentView.swift in Sources */,
+				5E9A835E289935B4002CC8E8 /* UsualViewModifiers.swift in Sources */,
 				5E9A834A28993240002CC8E8 /* GaugeViewApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

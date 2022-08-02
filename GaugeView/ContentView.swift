@@ -14,13 +14,25 @@ struct ContentView: View {
         VStack {
             Gauge(value: speed) {
                 Text("Speed")
-            }.padding()
+            }.padding(.horizontal)
             
             Speedometer()
                 .padding(.horizontal)
             
             AddingCustomLabels()
-                .padding()
+                .padding(.horizontal)
+            
+            BoundsView()
+                .padding(.horizontal)
+            
+            UsualViewModifiers()
+                .padding(.horizontal)
+            
+            GaugeStyles()
+                .padding(.horizontal)
+            
+            GaugeStyleAccessoryLinearCapacity()
+                .padding(.horizontal)
         }
     }
 }
