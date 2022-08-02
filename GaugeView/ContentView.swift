@@ -8,12 +8,19 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State private var speed = 0.75
+    
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+            Gauge(value: speed) {
+                Text("Speed")
+            }.padding()
+            
+            Speedometer()
+                .padding(.horizontal)
+            
+            AddingCustomLabels()
+                .padding()
         }
     }
 }

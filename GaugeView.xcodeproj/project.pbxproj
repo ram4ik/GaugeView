@@ -11,6 +11,8 @@
 		5E9A834C28993240002CC8E8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E9A834B28993240002CC8E8 /* ContentView.swift */; };
 		5E9A834E28993243002CC8E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E9A834D28993243002CC8E8 /* Assets.xcassets */; };
 		5E9A835128993243002CC8E8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E9A835028993243002CC8E8 /* Preview Assets.xcassets */; };
+		5E9A8358289932EE002CC8E8 /* Speedometer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E9A8357289932EE002CC8E8 /* Speedometer.swift */; };
+		5E9A835A28993390002CC8E8 /* AddingCustomLabels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E9A835928993390002CC8E8 /* AddingCustomLabels.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		5E9A834B28993240002CC8E8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		5E9A834D28993243002CC8E8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5E9A835028993243002CC8E8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5E9A8357289932EE002CC8E8 /* Speedometer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Speedometer.swift; sourceTree = "<group>"; };
+		5E9A835928993390002CC8E8 /* AddingCustomLabels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddingCustomLabels.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +59,8 @@
 				5E9A834B28993240002CC8E8 /* ContentView.swift */,
 				5E9A834D28993243002CC8E8 /* Assets.xcassets */,
 				5E9A834F28993243002CC8E8 /* Preview Content */,
+				5E9A8357289932EE002CC8E8 /* Speedometer.swift */,
+				5E9A835928993390002CC8E8 /* AddingCustomLabels.swift */,
 			);
 			path = GaugeView;
 			sourceTree = "<group>";
@@ -137,6 +143,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5E9A835A28993390002CC8E8 /* AddingCustomLabels.swift in Sources */,
+				5E9A8358289932EE002CC8E8 /* Speedometer.swift in Sources */,
 				5E9A834C28993240002CC8E8 /* ContentView.swift in Sources */,
 				5E9A834A28993240002CC8E8 /* GaugeViewApp.swift in Sources */,
 			);
